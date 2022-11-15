@@ -16,20 +16,6 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-core</artifactId>
-			<version>4.8.1</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -48,7 +34,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		
+
+
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
@@ -76,8 +63,8 @@
 		        <configuration>
 		            <schemaVersion>v2</schemaVersion>
 		            <subscriptionId></subscriptionId>
-		            <resourceGroup>checkout-1667907278365-rg</resourceGroup>
-		            <appName>checkout-1667907278365</appName>
+		            <resourceGroup>checkout-1668540732122-rg</resourceGroup>
+		            <appName>checkout-1668540732122</appName>
 		            <pricingTier>F1</pricingTier>
 		            <region>centralus</region>
 		            <runtime>
@@ -98,6 +85,8 @@
 		        </configuration>
 		    </plugin>
 		</plugins>
+
+
 	</build>
 
 </project>
